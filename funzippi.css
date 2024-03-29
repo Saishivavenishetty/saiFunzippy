@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.bgContainer {
+    background-image: url("https://i.postimg.cc/WzXgkNpw/Screenshot-2024-03-28-191204.png");
+    background-position: right;
+    background-size: cover;
+    min-height: 55vh;
+    width: 600px;
+}
+
+.ExpoHeading {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.bgFlexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bgPage {
+    color: #FFFFFF;
+    font-size: 8px;
+    margin-right: 12px;
+    font-weight: 500;
+}
+
+.bgAltImg {
+    height: 30px;
+    width: 60px;
+    border-color: #8F00FF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.WelcomHeadStyling {
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.see {
+    height: 30px;
+    width: 40px;
+    color: #8F00FF;
+    text-align: center;
+}
+
+.UnveilingPara {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.icon {
+    height: 30px;
+    width: 40px;
+    color: white;
+    text-align: center
+}
+
+.iconFlexing {
+    display: flex;
+    justify-content: center;
+}
+
+.iconPara {
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+.registerButton {
+    background-color: transparent;
+    padding: 13px;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    width: 180px;
+    height: 50px;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.aboutImg {
+    height: 460px;
+    width: 200px;
+    margin: 12px;
+    margin-right: 10px;
+
+}
+
+.aboutFlexing {
+    display: flex;
+    margin: 20px;
+}
+
+.aboutHead {
+    color: black;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    padding: 8px;
+    font-weight: bold;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.aboutPara {
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+}
+
+.keyHead {
+    color: black;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+    padding: 8px;
+    font-weight: bold;
+    padding-right: 30px;
+
+}
+
+.videoButton {
+    background-color: transparent;
+    padding: 13px;
+    color: #8F00FF;
+    border-radius: 20px;
+    border-color: #8F00FF;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.expoSchedule {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.scheduleFlexing {
+    display: flex;
+    justify-content: center;
+}
+
+.daySchedule1 {
+    color: #8F00FF;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    margin-top: 6px;
+}
+
+.one {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.daySchedule {
+    color: black;
+    font-size: 15px;
+    font-family: "Trebuchet MS";
+}
+
+.dayPara {
+    color: grey;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+
+.daySchedParaContainer {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.lineStyling {
+    width: 100%;
+    height: 20px;
+}
+
+.vrLine {
+    height: 300px;
+    margin-left: 20px;
+}
+
+.dis {
+    display: flex;
+    justify-content: center;
+
+}
+
+.page1 {
+    margin-right: 15px;
+}
+
+.page2 {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.page3 {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.page4 {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.page5 {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.openHead1 {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Trebuchet MS";
+}
+
+.openPara1 {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 22px;
+    font-family: "Trebuchet MS";
+}
+
+.registerPara {
+    text-align: center;
+    color: grey;
+    font-family: "Trebuchet MS";
+}
+
+.speakerHead {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.speakerImgFlexing {
+    display: flex;
+
+}
+
+.speakerImgStyling {
+    height: 150px;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.speakerNameStyling {
+    color: #0000FF;
+    font-size: 17px;
+    margin-left: 10px;
+    font-family: "Trebuchet MS";
+}
+
+.speakerProfessionStyling {
+    color: grey;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: "Trebuchet MS";
+}
+
+.faqHead {
+    color: black;
+    font-family: "Trebuchet MS";
+    font-size: 22px;
+    margin: 20px;
+}
+
+.faqsFlexing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.qnoHead {
+    color: #0000FF;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    margin-right: 10px;
+}
+
+.qnHead {
+    color: black;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    margin-right: 40px;
+}
+
+.qnPara {
+    color: grey;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+}
+
+.ExhibitorsHead {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: "Roboto";
+}
+
+.companyBorder {
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    height: 90px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.companyLogoStyling {
+    height: 30px;
+    width: 40px;
+    margin: 10px;
+}
+
+.companyFlexing {
+    display: flex;
+
+}
+
+.stateHead {
+    color: #0000FF;
+    font-family: "Caveat";
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.MagnaHead {
+    color: #0000FF;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.companyHead {
+    color: #0000FF;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.Head {
+    color: #8F00FF;
+    font-family: "Roboto";
+    font-size: 10px;
+
+}
+
+.techHead {
+    color: #0000FF;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 12px;
+}
+
+.com {
+    color: #8F00FF;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.ticketBgContainer {
+    background-image: url("https://i.postimg.cc/Jnj5Vrz1/Screenshot-2024-03-29-012706.png");
+    background-size: cover;
+    background-position: right;
+    height: 40vh;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.arrowIcon {
+    height: 20px;
+}
+
+.ticketHead {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.ticketPara {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.carouselContainer {
+    margin-left: 60px;
+    background-color: black;
+    width: 100%;
+
+}
+
+.ones {
+    background-color: skyblue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.animatedStyling {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Caveat";
+}
+
+.scienceSummitBgContainer {
+    background-color: #0000FF;
+    height: 30vh;
+    background-size: cover;
+    margin: 8px;
+    padding-bottom: 25px;
+}
+
+.scienceSummitBgflexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.expoStyling {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.expoBorderStyling {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.summitHead {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.expoHomeStyling {
+    color: white;
+    font-size: 11px;
+    margin-right: 8px;
+    font-family: "Roboto";
+}
+
+@media (min-width:600px) {
+
+    .bgContainer {
+        min-width: 100%;
+    }
+
+    .bgPage {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .welcomeFlexing {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .WelcomHeadStyling {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .bgAltImg {
+        height: 40px;
+        width: 80px;
+        border-color: #8F00FF;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 20px;
+    }
+
+    .UnveilingPara {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .iconPara {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    .aboutImg {
+        height: 300px;
+        width: 350px;
+    }
+
+    .aboutHead {
+        font-size: 22px;
+        padding-right: 40px;
+        margin-top: 20px;
+    }
+
+    .aboutPara {
+        font-size: 20px;
+        padding-right: 40px;
+    }
+
+    .daySchedule {
+        font-size: 25px;
+    }
+
+    .dayPara {
+        font-size: 20px;
+    }
+
+    .scheduleFlexing {
+        justify-content: center;
+    }
+
+    .carouselContainer {
+        margin-left: 120px;
+    }
+
+
+    .openPara1 {
+        margin-bottom: 30px;
+    }
+
+    .page2 {
+        margin-top: 40px;
+    }
+
+    .page3 {
+        margin-top: 48px;
+    }
+
+    .page4 {
+        margin-top: 48px;
+    }
+
+    .page5 {
+        margin-top: 48px;
+    }
+
+    .speakerImgStyling {
+        height: 250px;
+        width: 220px;
+        margin-right: 20px;
+    }
+
+    .speakerImgFlexing {
+        justify-content: center;
+    }
+
+    .speakerNameStyling {
+        font-size: 25px;
+    }
+
+    .speakerProfessionStyling {
+
+        font-size: 16px;
+    }
+
+    .companyBorder {
+        border-color: grey;
+        border-width: 2px;
+        border-style: solid;
+        height: 90px;
+        width: 250px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .companyLogoStyling {
+        height: 40px;
+        width: 60px;
+        margin: 10px;
+    }
+
+    .companyFlexing {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .stateHead {
+        color: #0000FF;
+        font-family: "Caveat";
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .MagnaHead {
+        color: #0000FF;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .companyHead {
+        color: #0000FF;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+
+    .Head {
+        color: #8F00FF;
+        font-family: "Roboto";
+        font-size: 12px;
+
+    }
+
+    .techHead {
+        color: #0000FF;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto";
+        margin-top: 12px;
+    }
+
+    .com {
+        color: #8F00FF;
+        font-family: "Roboto";
+        font-size: 12px;
+    }
+
+    .ticketBgContainer {
+        margin-left: 0px;
+    }
+
+    .animatedStyling {
+        font-size: 25px;
+    }
+
+    .expoBorderStyling {
+        margin-left: 500px;
+        margin-right: 500px;
+
+    }
+
+
+}
